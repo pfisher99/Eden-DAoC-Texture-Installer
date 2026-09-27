@@ -1,0 +1,50 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Color x:Key="WindowBackgroundColor">#EFE3C7</Color>
+  <Color x:Key="SurfaceColor">#FFF8E8</Color>
+  <Color x:Key="RaisedSurfaceColor">#F7EACF</Color>
+  <Color x:Key="InputBackgroundColor">#FFFDF6</Color>
+  <Color x:Key="PrimaryTextColor">#2B241B</Color>
+  <Color x:Key="SecondaryTextColor">#665A47</Color>
+  <Color x:Key="BorderColor">#C9B58E</Color>
+  <Color x:Key="HoverColor">#F1DFBB</Color>
+  <Color x:Key="SelectedColor">#E8D09D</Color>
+  <Color x:Key="DisabledSurfaceColor">#E4D8C0</Color>
+  <Color x:Key="DisabledTextColor">#827561</Color>
+  <Color x:Key="AccentColor">#A66F22</Color>
+  <Color x:Key="AccentHoverColor">#B97E29</Color>
+  <Color x:Key="AccentPressedColor">#8C5A19</Color>
+  <Color x:Key="AccentTextColor">#FFF9EC</Color>
+  <Color x:Key="SuccessColor">#416548</Color>
+  <Color x:Key="SuccessSurfaceColor">#DDE9D6</Color>
+  <Color x:Key="WarningColor">#875713</Color>
+  <Color x:Key="WarningSurfaceColor">#F3E0B9</Color>
+  <Color x:Key="ErrorColor">#913C34</Color>
+  <Color x:Key="ErrorSurfaceColor">#F2D7D0</Color>
+  <Color x:Key="FocusColor">#9E681E</Color>
+  <Color x:Key="OverlayColor">#24000000</Color>
+
+  <SolidColorBrush x:Key="WindowBackgroundBrush" Color="{StaticResource WindowBackgroundColor}" />
+  <SolidColorBrush x:Key="SurfaceBrush" Color="{StaticResource SurfaceColor}" />
+  <SolidColorBrush x:Key="RaisedSurfaceBrush" Color="{StaticResource RaisedSurfaceColor}" />
+  <SolidColorBrush x:Key="InputBackgroundBrush" Color="{StaticResource InputBackgroundColor}" />
+  <SolidColorBrush x:Key="PrimaryTextBrush" Color="{StaticResource PrimaryTextColor}" />
+  <SolidColorBrush x:Key="SecondaryTextBrush" Color="{StaticResource SecondaryTextColor}" />
+  <SolidColorBrush x:Key="BorderBrush" Color="{StaticResource BorderColor}" />
+  <SolidColorBrush x:Key="HoverBrush" Color="{StaticResource HoverColor}" />
+  <SolidColorBrush x:Key="SelectedBrush" Color="{StaticResource SelectedColor}" />
+  <SolidColorBrush x:Key="DisabledSurfaceBrush" Color="{StaticResource DisabledSurfaceColor}" />
+  <SolidColorBrush x:Key="DisabledTextBrush" Color="{StaticResource DisabledTextColor}" />
+  <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource AccentColor}" />
+  <SolidColorBrush x:Key="AccentHoverBrush" Color="{StaticResource AccentHoverColor}" />
+  <SolidColorBrush x:Key="AccentPressedBrush" Color="{StaticResource AccentPressedColor}" />
+  <SolidColorBrush x:Key="AccentTextBrush" Color="{StaticResource AccentTextColor}" />
+  <SolidColorBrush x:Key="SuccessBrush" Color="{StaticResource SuccessColor}" />
+  <SolidColorBrush x:Key="SuccessSurfaceBrush" Color="{StaticResource SuccessSurfaceColor}" />
+  <SolidColorBrush x:Key="WarningBrush" Color="{StaticResource WarningColor}" />
+  <SolidColorBrush x:Key="WarningSurfaceBrush" Color="{StaticResource WarningSurfaceColor}" />
+  <SolidColorBrush x:Key="ErrorBrush" Color="{StaticResource ErrorColor}" />
+  <SolidColorBrush x:Key="ErrorSurfaceBrush" Color="{StaticResource ErrorSurfaceColor}" />
+  <SolidColorBrush x:Key="FocusBrush" Color="{StaticResource FocusColor}" />
+  <SolidColorBrush x:Key="OverlayBrush" Color="{StaticResource OverlayColor}" />
+</ResourceDictionary>

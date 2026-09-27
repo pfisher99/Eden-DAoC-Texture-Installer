@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>SqeaksDaocTextureInstaller</AssemblyName>
+    <RootNamespace>SqeaksDaocTextures</RootNamespace>
+    <AssemblyTitle>Sqeak's DAoC Textures - Installer</AssemblyTitle>
+    <Product>Sqeak's DAoC Textures</Product>
+    <Authors>Sqeak</Authors>
+    <Company>Sqeak</Company>
+    <Description>Created by Sqeak. Built and tested for Eden; Live and other DAoC servers are untested.</Description>
+    <Version>1.2.0</Version>
+    <FileVersion>1.2.0.0</FileVersion>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets\SqeaksDaocTextures.ico</ApplicationIcon>
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <PublishTrimmed>false</PublishTrimmed>
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SharpCompress" Version="0.50.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\SqeaksDaocTextures.ico" />
+  </ItemGroup>
+</Project>
