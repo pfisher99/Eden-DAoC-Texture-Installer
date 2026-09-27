@@ -2,7 +2,7 @@
 
 Created by Sqeak. This texture pack was built and tested for Eden. Compatibility with Live and other Dark Age of Camelot servers is untested.
 
-The portable Windows installer treats `Sqeaks-DAoC-Textures-v0.1-Part1.7z` and `Sqeaks-DAoC-Textures-v0.1-Part2.7z` as one texture pack, backs up selected DAoC folders, streams both archives directly into the live folders, switches between the original and texture-pack variants, and safely restores originals when selected textures are uninstalled.
+The Windows installer treats `Sqeaks-DAoC-Textures-v0.1-Part1.7z` and `Sqeaks-DAoC-Textures-v0.1-Part2.7z` as one texture pack, backs up selected DAoC folders, streams both archives directly into the live folders, switches between the original and texture-pack variants, and safely restores originals when selected textures are uninstalled.
 
 ## Versions
 
@@ -12,8 +12,10 @@ The portable Windows installer treats `Sqeaks-DAoC-Textures-v0.1-Part1.7z` and `
 ## Build
 
 ```powershell
-dotnet publish src\SqeaksDaocTextureInstaller\SqeaksDaocTextureInstaller.csproj -c Release -r win-x64 --self-contained true -o dist
+dotnet publish src\SqeaksDaocTextureInstaller\SqeaksDaocTextureInstaller.csproj -c Release -r win-x64 --self-contained false -o dist
 ```
+
+The published installer is a framework-dependent, single-file `win-x64` application. The target computer must have the [x64 .NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0) installed. If the required runtime is missing, the standard .NET launch error identifies it and provides a download link. See Microsoft's documentation for [framework-dependent deployment](https://learn.microsoft.com/dotnet/core/deploying/) and [missing-runtime launch errors](https://learn.microsoft.com/dotnet/core/runtime-discovery/troubleshoot-app-launch).
 
 For distribution, place `Sqeaks-DAoC-Textures-v0.1-Part1.7z` and `Sqeaks-DAoC-Textures-v0.1-Part2.7z` beside `Sqeaks-DAoC-Texture-Installer-v1.2.exe`. Both archives are required and are deliberately not embedded or copied into the application. Browsing to either part automatically locates its matching sibling.
 
