@@ -1,6 +1,5 @@
 # Sqeak's DAoC Textures
-
-Created by Sqeak. This texture pack was built and tested for Eden. Compatibility with Live and other Dark Age of Camelot servers is untested.
+[Created by Sqeak. This texture pack was built and tested for Eden. Compatibility with Live and other Dark Age of Camelot servers is untested.](https://www.nexusmods.com/darkageofcamelot/mods/2)
 
 The Windows installer treats `Sqeaks-DAoC-Textures-v0.1-Part1.7z` and `Sqeaks-DAoC-Textures-v0.1-Part2.7z` as one texture pack, backs up selected DAoC folders, streams both archives directly into the live folders, switches between the original and texture-pack variants, and safely restores originals when selected textures are uninstalled.
 
